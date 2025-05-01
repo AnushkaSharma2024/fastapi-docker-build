@@ -34,11 +34,12 @@ pipeline {
         }
 
         stage('Deploy') {
-            steps {
-                // Optional: Add deployment steps here
-                // For example, SSH into your server and run the container
-            }
-        }
+    steps {
+        echo 'No deployment steps yet'
+        // You can add SSH or Kubernetes deployment commands here
+    }
+}
+
     }
 
     post {
