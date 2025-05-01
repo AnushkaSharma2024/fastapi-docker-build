@@ -34,12 +34,11 @@ pipeline {
         }
 
         stage('Deploy') {
-    steps {
-        echo 'No deployment steps yet'
-        // You can add SSH or Kubernetes deployment commands here
-    }
-}
-
+            steps {
+                echo 'No deployment steps yet'
+                // You can add SSH or Kubernetes deployment commands here
+            }
+        }
     }
 
     post {
